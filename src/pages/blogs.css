@@ -1,0 +1,95 @@
+#solution {
+    padding: 120px 0;
+  }
+  #solution .solution_heading {
+    display: flex;
+    -moz-column-gap: 150px;
+         column-gap: 150px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #solution .solution_heading p {
+    /*font-size:18px ;
+    font-weight:400 ;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 200%;
+    text-transform: capitalize;
+    color: $black;*/
+    width: 696px;
+  }
+  #solution .solution_heading .section_heading {
+    width: 564px;
+    padding: 80px 0;
+  }
+  #solution .solution_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  #solution .solution_wrapper .solution_item {
+    width: 450px;
+    border-radius: 30px;
+    border: 1px solid rgba(132, 84, 245, 0.4);
+    padding: 24px 24px 48px 24px;
+    transition: all linear 0.6s;
+  }
+  #solution .solution_wrapper .solution_item a {
+    display: inline-block;
+    margin-top: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #29313D;
+    line-height: 100%;
+    transition: all linear 0.6s;
+  }
+  #solution .solution_wrapper .solution_item a:hover {
+    background-color: #fff;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head {
+    display: flex;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head h4 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.6s;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head h4:hover {
+    color: #fff;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head .icon_box {
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+    background-color: rgba(254, 196, 95, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.6s;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head .icon_box i {
+    color: #FFC556;
+    font-size: 27px;
+    transition: all linear 0.6s;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head .icon_box i:hover {
+    color: #fff;
+  }
+  #solution .solution_wrapper .solution_item:hover {
+    background-color: #8454F5;
+  }
+  #solution .solution_wrapper .solution_item:hover p {
+    /*background-color: $primary;*/
+    color: #fff;
+  }

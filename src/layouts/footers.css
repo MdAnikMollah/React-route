@@ -1,0 +1,66 @@
+#footer {
+    padding-top: 140px;
+    padding-bottom: 57px;
+  }
+  #footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    -moz-column-gap: 212px;
+         column-gap: 212px;
+  }
+  #footer .footer_wrapper .footer_details {
+    width: 450px;
+  }
+  #footer .footer_wrapper .footer_details P {
+    padding-top: 44px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 180%;
+  }
+  #footer .footer_wrapper .footer_list_wrapper {
+    display: flex;
+    -moz-column-gap: 160px;
+         column-gap: 160px;
+  }
+  #footer .footer_wrapper .footer_list_wrapper .footer_heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+  }
+  #footer .footer_wrapper .footer_list_wrapper .footer_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  #footer .footer_wrapper .footer_list_wrapper .footer_list li {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 120%;
+    color: #29313D;
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: capitalize;
+  }
+  #footer .copyright {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer .copyright P {
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 180%;
+    text-transform: capitalize;
+  }
+  #footer .copyright .polecy {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }

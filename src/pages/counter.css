@@ -1,0 +1,83 @@
+#counter {
+    padding: 158px 0 75px 0;
+  }
+  #counter .counter_main {
+    display: flex;
+    -moz-column-gap: 228px;
+         column-gap: 228px;
+    align-items: center;
+  }
+  #counter .counter_main .counter_icon {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 28px;
+         column-gap: 28px;
+    padding-left: 37px;
+  }
+  #counter .counter_main .counter_icon h4 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #545A64;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 120%;
+  }
+  #counter .counter_main .counter_icon .counter_play_btn {
+    width: 140px;
+    height: 140px;
+    background-color: #FFC556;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #counter .counter_main .counter_icon .counter_play_btn::after {
+    position: absolute;
+    content: url(../images/video_shape.png);
+    left: -24px;
+    top: -24px;
+  }
+  #counter .counter_main .counter_icon .counter_play_btn i {
+    color: #fff;
+    font-size: 55px;
+  }
+  #counter .counter_main .counter_wrapper {
+    display: flex;
+    -moz-column-gap: 130px;
+         column-gap: 130px;
+  }
+  #counter .counter_main .counter_wrapper .counter_item {
+    position: relative;
+  }
+  #counter .counter_main .counter_wrapper .counter_item :last-child {
+    content: unset;
+  }
+  #counter .counter_main .counter_wrapper .counter_item :last-child::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -65px;
+    transform: translate(-50%, -50%);
+    background-color: #8454F5;
+    width: 2px;
+    height: 100px;
+    opacity: 0.2px;
+    background: #29313D;
+  }
+  #counter .counter_main .counter_wrapper .counter_item h3 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    margin-bottom: 4px;
+  }
+  #counter .counter_main .counter_wrapper .counter_item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    color: #29313D;
+    font-family: "Nunito Sans", sans-serif;
+    width: 185px;
+  }
+  

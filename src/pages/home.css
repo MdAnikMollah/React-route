@@ -1,0 +1,125 @@
+#plan {
+  padding: 120px 0 164px 0;
+}
+#plan .plan_heading {
+  width: 690px;
+  margin: 0 auto;
+  text-align: center;
+}
+#plan .plan_heading .plan_swap {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+#plan .plan_heading .plan_swap .swap_item {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #29313D;
+  line-height: 100%;
+}
+#plan .plan_heading .plan_swap .swap_btn {
+  width: 70px;
+  height: 40px;
+  background-color: #8454F5;
+  border-radius: 50px;
+  position: relative;
+}
+#plan .plan_heading .plan_swap .swap_btn::after {
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  /*color:white;*/
+  background-color: #fff;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+}
+#plan .plan_wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#plan .plan_wrapper .plan_item {
+  width: 450px;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 48px;
+  margin-top: 160px;
+  transition: all linear 0.5s;
+}
+#plan .plan_wrapper .plan_item .package {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+#plan .plan_wrapper .plan_item .package:hover {
+  color: #F8FAFC;
+}
+#plan .plan_wrapper .plan_item .package_details {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0;
+}
+#plan .plan_wrapper .plan_item .package_details .package_name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+#plan .plan_wrapper .plan_item .package_details .package_name li {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+}
+#plan .plan_wrapper .plan_item .package_details .package_name li i {
+  font-size: 20px;
+  color: #545A64;
+}
+#plan .plan_wrapper .plan_item .package_details .package_name li span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #545A64;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: capitalize;
+}
+#plan .plan_wrapper .plan_item .package_details .package_name li span:hover {
+  color: #F8FAFC;
+}
+#plan .plan_wrapper .plan_item .package_details .package_value {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+#plan .plan_wrapper .plan_item .package_details .package_value:hover {
+  color: #F8FAFC;
+}
+#plan .plan_wrapper .plan_item .package_details .package_value li {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8454F5;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: capitalize;
+  text-align: right;
+}
+#plan .plan_wrapper .plan_item .common_btn {
+  background-color: rgba(132, 84, 245, 0.103);
+  color: #8454F5;
+}
+#plan .plan_wrapper .plan_item .common_btn:hover {
+  background-color: #8454F5;
+  color: white;
+}
+#plan .plan_wrapper .plan_item:hover {
+  margin-top: 80px;
+  background-color: #181059;
+}

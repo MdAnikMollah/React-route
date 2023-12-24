@@ -1,0 +1,41 @@
+#goals {
+    padding: 183px 0 228px 0;
+    position: relative;
+    z-index: -2;
+  }
+  #goals::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 733px;
+    width: 30%;
+    content: "";
+    background-color: rgba(99, 62, 185, 0.01);
+    transform: translateY(-50%);
+    z-index: -1;
+    border-radius: 0 150px 150px 0;
+  }
+  #goals .goals_wrapper {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 120px;
+         column-gap: 120px;
+  }
+  #goals .goals_wrapper .goals_img {
+    padding-left: 13px;
+    width: 500px;
+    overflow: hidden;
+  }
+  #goals .goals_wrapper .goals_img .img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #goals .goals_wrapper .goals_content {
+    width: 690px;
+    margin-right: 100px;
+  }
+  #goals .goals_wrapper .goals_content p {
+    margin: 24px 0 48px 0;
+  }
+  

@@ -1,0 +1,60 @@
+#banner {
+    padding: 224px 0 70px 0;
+  }
+  #banner .banner_wrapper {
+    display: flex;
+    align-items: center;
+  }
+  #banner .banner_wrapper .banner_content {
+    width: 720px;
+  }
+  #banner .banner_wrapper .banner_content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #29313D;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    line-height: 140%;
+    margin-bottom: 40px;
+  }
+  #banner .banner_wrapper .banner_content p {
+    /* font-size:18px ;
+     font-weight:400 ;
+     font-family: 'Nunito Sans', sans-serif;
+     line-height: 200%;
+     text-transform: capitalize;
+     color: $black;*/
+    width: 516px;
+  }
+  #banner .banner_wrapper .banner_content form {
+    width: 630px;
+    padding: 37px 28px;
+    background: rgba(132, 84, 245, 0.05);
+    position: relative;
+    border-radius: 24px;
+    margin-top: 48px;
+  }
+  #banner .banner_wrapper .banner_content form button {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #banner .banner_wrapper .banner_content form input {
+    width: 350px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 200%;
+    color: #29313D;
+  }
+  #banner .banner_wrapper .banner_img {
+    width: 690px;
+    position: relative;
+    left: 123px;
+  }

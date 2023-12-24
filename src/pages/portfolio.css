@@ -1,0 +1,15 @@
+#brand {
+    padding: 370px 0;
+  }
+  #brand .brand_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  #brand .brand_wrapper .brand_item {
+    width: 210px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
